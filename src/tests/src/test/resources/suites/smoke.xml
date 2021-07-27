@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite">
+    <groups>
+        <run>
+            <include name="Smoke Tests"/>
+            <exclude name="Skip Tests"/>
+            <exclude name="Deprecated Tests"/>
+        </run>
+    </groups>
+    <test name="API Tests" parallel="classes" thread-count="6">
+        <packages>
+            <package name="awesomeCalculator.api.*"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FULL test Suite">
+  <groups>
+    <run>
+    </run>
+  </groups>
+  <test name="API Tests" parallel="classes" thread-count="6">
+    <packages>
+      <package name="awesomeCalculator.api.*"/>
+    </packages>
+  </test>
+  <test name="Chrome GUI Tests" parallel="classes" thread-count="6">
+    <parameter name="browser" value="chrome" />
+    <packages>
+      <package name="awesomeCalculator.gui.*"/>
+    </packages>
+  </test>
+  <test name="Chrome UseCases Tests" parallel="classes" thread-count="6">
+    <parameter name="browser" value="chrome" />
+    <packages>
+      <package name="awesomeCalculator.useCases.*"/>
+    </packages>
+  </test>
+  <!--    <test name="Firefox GUI Tests" parallel="classes" thread-count="6">-->
+  <!--        <parameter name="browser" value="firefox" />-->
+  <!--        <packages>-->
+  <!--            <package name="awesomeCalculator.gui.*"/>-->
+  <!--        </packages>-->
+  <!--    </test>-->
+</suite>
