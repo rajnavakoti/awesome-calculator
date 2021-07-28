@@ -16,10 +16,7 @@ At first, I wanted to create a continous integration solution (some automation t
 
 # Scalability
 On a first impression, the solution might look an overkill for simple application, but as a new feature is getting added to the application and company's thinking to expand more, I designed it keeping horizontal scaling in mind
-
-# CI/CD sample
-I have also added a sample CI/CD script that you can find in the `githubActions` tab of the repo 
-
+ 
 **Note**: To include smoke tests in the build process, I have updated the `docker-compose.yml` file, hope you guys don't mind
 
 **Detailed information of test repo can be found under `/src/tests/README.md`**
