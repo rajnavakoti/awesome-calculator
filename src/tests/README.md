@@ -18,6 +18,7 @@ This repository meant for code challenge.
 1. [DOCKER](https://www.docker.com/)  (only if you want to run the tests inside a container)
 2. [JDK](https://www.oracle.com/java/technologies/javase-downloads.html) - 11+ recommended
 3. [GRADLE](https://gradle.org/) - 7.1.1+ recommended
+4. [GOOGLE-CHROME](https://www.google.com/chrome/)
 
 ## What tests covered under this project ?
 - Smoke
