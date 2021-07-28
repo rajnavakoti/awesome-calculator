@@ -1,6 +1,28 @@
-# Awesome factorial application
+# Awesome factorial application (v2)
 
-Welcome to the awesome factorial repository, here you can find the code to run your awesome factorial calculator.
+Welcome to the awesome factorial updated repository. The newer version of the application, protected by tests and ensures high quality
+
+Hej Team,
+
+As I understood the problem, that awesome-llc has been operational without any test/QA
+
+At first, I wanted to create a continous integration solution (some automation tests + exploratory tests which QA team can test on build releases) but as I can see the application don't have an unit, integration tests and build is running without and tests I have decided to provide a continous delivery solution. please find the below metnioned details to review my solution
+
+# Solution details
+
+**Test repo**: `/src/tests/src`
+
+**Test repo readme**: `/src/tests/README.md`
+
+# Scalability
+On a first impression, the solution might look an overkill for simple application, but as a new feature is getting added to the application and company's thinking to expand more, I designed it keeping horizontal scaling in mind
+
+# CI/CD sample
+I have also added a sample CI/CD script that you can find in the `githubActions` tab of the repo 
+
+**Note**: To include smoke tests in the build process, I have updated the `docker-compose.yml` file, hope you guys don't mind
+
+**Detailed information of test repo can be found under `/src/tests/README.md`**
 
 ## Contents
 
