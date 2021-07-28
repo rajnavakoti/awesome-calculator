@@ -31,6 +31,7 @@ This repository meant for code challenge.
 
 ## How to run the test execution ?
 There are multiple ways to execute them
+
 **Note**: The application need to be up and running before running tests.To run the awesome-calculator application locally please follow the steps in `root/README.md` file
 
 1. Run tests inside docker container
